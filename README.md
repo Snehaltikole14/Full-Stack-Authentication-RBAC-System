@@ -41,10 +41,9 @@ Access Control:
 * Spring Security
 * JWT (JSON Web Token)
 * Spring Data JPA (Hibernate)
-* MapStruct
 * Lombok
 * Maven
-* Swagger (OpenAPI)
+
 
 ### Frontend
 
@@ -68,7 +67,6 @@ root/
 │   ├── repository/
 │   ├── entity/
 │   ├── dto/
-│   ├── security/
 │   └── config/
 │
 ├── frontend/
