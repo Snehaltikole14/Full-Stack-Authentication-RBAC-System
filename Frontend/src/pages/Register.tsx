@@ -19,7 +19,7 @@ export default function Register() {
 
   const onSubmit = async (data: FormData) => {
     try {
-      await api.post("/register", data);
+      await api.post("/auth/register", data);
       alert("Registered Successfully ✅");
        navigate("/login");
     } catch (error) {

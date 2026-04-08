@@ -19,7 +19,7 @@ export default function Login() {
 
   const onSubmit = async (data: LoginData) => {
     try {
-      const res = await api.post("/login", data);
+      const res = await api.post("/auth/login", data);
 
       setToken(res.data.token);
       localStorage.setItem("role", res.data.role);
